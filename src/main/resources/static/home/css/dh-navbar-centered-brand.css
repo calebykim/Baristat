@@ -1,0 +1,26 @@
+.navbar-toggle {
+  z-index:3;
+}
+
+.navbar-default {
+  background-color:rgba(255,255,255,0.72);
+  background-image:none;
+  color:#111111;
+}
+
+@media screen and (min-width:768px) {
+  .navbar-brand-centered {
+    position:absolute;
+    left:50%;
+    display:block;
+    width:160px;
+    text-align:center;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .navbar > .container .navbar-brand-centered, .navbar > .container-fluid .navbar-brand-centered {
+    margin-left:-80px;
+  }
+}
+

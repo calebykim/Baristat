@@ -1,0 +1,193 @@
+html, body, .page-wrapper {
+	height: 100%;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+/** Headers **/
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  color: #c7c7c7;
+  float: left;
+  border-right: 2px solid #7dd4ff;
+  margin-right: 1em;
+  padding-right: 1em;
+}
+
+h3 {
+  word-wrap: break-word;
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.6em;
+  text-transform: lowercase;
+  color: white;
+  font-weight: 300;
+  margin: 23px 0 0 10px;
+}
+
+.left {
+    text-align: left;
+}
+
+.highlight {
+    font-weight:600;
+    color: #7dd4ff;
+}
+
+.highlight-small {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+/** Side bar **/
+.side-bar {
+  background-color: rgb(68, 73, 86);
+  width: 80px;
+  height: 100%;
+  float:left;
+  position:fixed;
+  z-index: 1000;
+}
+
+
+#logout, #settings, #tweet, #tweet-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 30px;
+  display: block;
+  margin-bottom: 2em;
+}
+
+#logout {
+  background-image: url("../../images/logout.png");
+ 
+}
+
+#settings {
+  background-image: url("../../images/settings.png");
+}
+
+#tweet {
+    height:50px;
+}
+
+#tweet-image {
+    background-image: url("../../images/Twitter_Social_Icon_Circle_Color.png");
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-size: 30px;
+    background-color: rgb(29, 161, 242);
+}
+
+.page-wrapper {
+    width: 90%;
+    float: right;
+}
+
+/** TRENDS **/
+
+.wrapper {
+    text-align:center;
+}
+.icon {
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin:10px;
+}
+
+#best-day-icon {
+    background-image: url("../../images/sun_grey.png");
+}
+
+#worst-day-icon {
+    background-image: url("../../images/cloud_grey.png");
+}
+#average-day-icon {
+    background-image: url("../../images/walking_man_grey.png");
+}
+
+
+/** OVERVIEW **/
+#top-item-icon {
+    background-image: url("../../images/like_white.png");
+}
+
+#predicted-visitors-icon {
+    background-image: url("../../images/walking_man_white.png");
+}
+
+#predicted-total-sales-icon {
+    background-image: url("../../images/piggy_white.png");
+}
+
+#delta-sales-icon {
+    background-image: url("../../images/trending_white.png");
+}
+
+#trending-item-icon {
+    background-image: url("../../images/coffee_white.png");
+}
+
+#busiest-day-icon {
+    background-image: url("../../images/sun_white.png");
+}
+
+.overview-label {
+    color:white;
+    margin: 0;
+}
+
+/** MODAL **/
+
+.modal-content {
+    background-color: rgb(68, 73, 86);
+    border-radius: 10px;
+    padding: 1em 2em 1em 2em;
+}
+
+.block-li {
+    display:block;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color:inherit;
+}
+
+a.button {
+	color: white;
+    text-decoration: none;
+    border: 1px solid #6abffd;
+    background-color: #6abffd;
+    padding: 10px;
+    border-radius: 2%;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-family: didact gothic;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+	display:inline-block;
+	list-style-type: none;
+}
+
+
+input {
+	font-size:.6em;
+}
